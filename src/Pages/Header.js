@@ -40,7 +40,7 @@ export default function Header() {
                         </Button>
                     </Grid>)
                         : null}
-                {window.innerWidth > 450 ? null : <Button style={{ color: 'white' }} onClick={() => setShowList(!showList)}><img src={logo} height="20px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MariaChi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {showList ? <Close /> : <Toc />}</Button>}
+                {window.innerWidth > 450 ? null : <Button style={{ color: 'white' }} onClick={() => setShowList(!showList)}><img src={logo} height="20px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COOK4U &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {showList ? <Close /> : <Toc />}</Button>}
             </Grid>
         </Grid >
     )
